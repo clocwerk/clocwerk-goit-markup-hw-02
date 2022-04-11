@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --button-color: #f5f4fa;
+  --footer-background-color:#2F303A;
 }
 /*color: var(--black-color);*/
 
@@ -12,13 +13,27 @@ body {
   background-color: var(--white-color);
   font-family: Roboto;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
 li {
   list-style: none;
+}
+button{
+  font-family: 'Roboto';
+}
+
+.footer{
+  background-color:var(--footer-background-color) ;
+}
+
+.info-footer{
+  color: var(--white-color);
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.03em; 
 }
 
 /*top line */
@@ -27,7 +42,7 @@ li {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -62,16 +77,22 @@ li {
 .top-line:hover,
 .top-line:focus,
 .info:hover,
-.info:focus {
+.info:focus,
+.active
+ {
   color: var(--blue-color);
 }
 
 /*hat*/
 
+.hat{
+  background-color: var(--footer-background-color);
+}
+
 .hat-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -81,7 +102,7 @@ li {
 .hat-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.9;
   display: flex;
   align-items: center;
   text-align: center;
@@ -95,11 +116,13 @@ li {
 
 .peculiarities-headers {
   font-weight: 700;
+  font-size: 14px;
+  line-height:1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .peculiarities-text {
-  line-height: 171%;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -109,17 +132,21 @@ li {
 .we-doing {
   font-weight: 700;
   font-size: 36px;
-  line-height: 100%;
+  line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 /*our team*/
 
-.our-team {
+.our-team{
+  background-color: var(--button-colorx);
+}
+
+.title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 100%;
+  line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -127,14 +154,14 @@ li {
 .team {
   font-weight: 500;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-position {
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -143,7 +170,7 @@ li {
 /*basement*/
 
 .home {
-  line-height: 146%;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
@@ -159,21 +186,25 @@ li {
 .navigation-portfolio {
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  color: var(--grayblack-color);
+  color: var(--text-color);
   background-color: var(--button-color);
 }
 
 .box-title-text {
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .secondary-tex {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;  
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
